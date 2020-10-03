@@ -7,7 +7,11 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SeleniumTest {
+/**
+ * Verify if Selenium set up works
+ * Pre-requisite - install selenium via brew
+ */
+class SeleniumSetupTest {
 
   private WebDriver chromeDriver;
 
@@ -17,7 +21,7 @@ public class SeleniumTest {
   }
 
   @Test
-  public void testDriverLoads() {
+  void testDriverLoads() {
     Assertions.assertNotNull(chromeDriver);
   }
 
