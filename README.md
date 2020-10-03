@@ -12,10 +12,13 @@ __
 
 ## Exercises
 
-[SeleniumSetupTest](learn-selenium/src/test/java/com/learn/selenium/SeleniumSetupTest.java) <br/>
+[Selenium Setup](learn-selenium/src/test/java/com/learn/selenium/SeleniumSetupTest.java) <br/>
 Test Chrome driver loads post installation
 <br/>
 
-[LocateSingleElement](learn-selenium/src/test/java/com/learn/selenium/LocateOneElementTest.java) <br/>
+[Locate Single Element](learn-selenium/src/test/java/com/learn/selenium/LocateOneElementTest.java) <br/>
+How to find single element from a html page?
+
+[Locate Multiple Elements](learn-selenium/src/test/java/com/learn/selenium/LocateMultipleElementsTest.java) <br/>
 How to find single element from a html page?
 
