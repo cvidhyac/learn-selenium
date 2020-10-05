@@ -6,9 +6,6 @@ Learn basic selenium concepts for automating simple UI testing.
 * Use chrome driver (install via brew in macos)
 * Use "Inspect" option in chrome developer tools to understand structure of web page.
 * Css styles displayed in the bottom of the developer tools tab.
-__
-## Mini projects
-
 
 ## Exercises
 
