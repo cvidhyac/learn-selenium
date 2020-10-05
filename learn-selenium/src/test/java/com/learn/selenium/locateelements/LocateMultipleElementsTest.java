@@ -1,6 +1,6 @@
-package com.learn.selenium;
+package com.learn.selenium.locateelements;
 
-import java.util.logging.Logger;
+import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,18 +10,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/**
- * Simple program to display single element from a html page
- */
-class LocateOneElementTest {
+class LocateMultipleElementsTest {
 
-  private static Logger LOGGER = Logger.getLogger(LocateOneElementTest.class.getName());
-  private WebDriver webDriver;
   private static final String FILE_PATH = "/Users/vchidamb/Softwares/pet_projects/learn-selenium/learn-selenium/src/main/resources/testpages/scraping.html";
   private static final String FILE_PROTOCOL = "file://";
-  /**
-   * Initialize the driver and the file path
-   */
+  private WebDriver webDriver;
+
   @BeforeEach
   public void setUp() {
     webDriver = new ChromeDriver();
@@ -29,16 +23,15 @@ class LocateOneElementTest {
   }
 
   @Test
-  void testLocateElement() {
-    WebElement webElement = webDriver.findElement(By.className("author-about"));
-    LOGGER.info(webElement.getText());
-    Assertions.assertNotNull(webElement.getText());
+  void testCourseList_isSuccess() {
+    List<WebElement> webElements = webDriver.findElements(By.className("course-title"));
+    webElements.forEach(element -> Assertions.assertNotNull(element.getText()));
   }
 
   @AfterEach
   public void tearDown() {
     webDriver.close();
     webDriver.quit();
-  }
 
+  }
 }

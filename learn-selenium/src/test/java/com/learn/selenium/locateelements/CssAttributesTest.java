@@ -1,4 +1,4 @@
-package com.learn.selenium;
+package com.learn.selenium.locateelements;
 
 import java.util.logging.Logger;
 import org.junit.jupiter.api.AfterEach;

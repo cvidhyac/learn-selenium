@@ -1,4 +1,4 @@
-package com.learn.selenium;
+package com.learn.selenium.locateelements;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
