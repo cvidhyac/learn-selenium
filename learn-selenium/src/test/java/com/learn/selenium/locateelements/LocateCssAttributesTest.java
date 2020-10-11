@@ -10,9 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-class CssAttributesTest {
+class LocateCssAttributesTest {
 
-  private static final Logger LOGGER = Logger.getLogger(CssAttributesTest.class.getName());
+  private static final Logger LOGGER = Logger.getLogger(LocateCssAttributesTest.class.getName());
   private WebDriver webDriver;
   private static final String FILE_PATH = "/Users/vchidamb/Softwares/pet_projects/learn-selenium/learn-selenium/src/main/resources/testpages/scraping.html";
   private static final String FILE_PROTOCOL = "file://";

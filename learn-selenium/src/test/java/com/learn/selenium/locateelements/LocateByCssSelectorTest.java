@@ -11,8 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-class CssSelectorTest {
-  private static final Logger LOGGER = Logger.getLogger(CssSelectorTest.class.getName());
+class LocateByCssSelectorTest {
+  private static final Logger LOGGER = Logger.getLogger(LocateByCssSelectorTest.class.getName());
   private WebDriver webDriver;
 
   private static final String FILE_PATH = "/Users/vchidamb/Softwares/pet_projects/learn-selenium/learn-selenium/src/main/resources/testpages/scrapeprices.html";

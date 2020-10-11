@@ -26,13 +26,17 @@ Find the assigned hyperlink against href attribute. <br/>
 - Learn usage of By.linkText and By.partialLinkText
 - Learn usage of By.tagName and retrieve the <a> tag
 
-[CSS Attributes](learn-selenium/src/test/java/com/learn/selenium/locateelements/CssAttributesTest.java) <br/>
+[CSS Attributes](learn-selenium/src/test/java/com/learn/selenium/locateelements/LocateCssAttributesTest.java) <br/>
 Find CSS Attributes in a web element and assert values. <br/>
 <br/>
 
 [Print website data](learn-selenium/src/test/java/com/learn/selenium/locateelements/WebtableDataTest.java) <br/>
 Print data in rows and columns from a html table <br/>
 
-[HTML CSS Selector](learn-selenium/src/test/java/com/learn/selenium/locateelements/CssSelectorTest.java) <br/>
+[HTML CSS Selector](learn-selenium/src/test/java/com/learn/selenium/locateelements/LocateByCssSelectorTest.java) <br/>
 HTML CSS Selector test, and print row elements <br/>
 - Tip : Use chrome devtools to copy css selector (Inspect -> Copy -> Copy Selector) <br/>
+
+[XPath expressions](learn-selenium/src/test/java/com/learn/selenium/locateelements/LocateByXPathTest.java) <br/>
+Find element by xpath expression
+
