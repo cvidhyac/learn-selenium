@@ -7,11 +7,7 @@ Learn basic selenium concepts for automating simple UI testing.
 * Use "Inspect" option in chrome developer tools to understand structure of web page.
 * Css styles displayed in the bottom of the developer tools tab.
 
-## Exercises
-
-[Selenium Setup](learn-selenium/src/test/java/com/learn/selenium/locateelements/SeleniumSetupTest.java) <br/>
-Test Chrome driver loads post installation, How to start and stop driver
-<br/>
+## Locate Elements
 
 [Locate Single Element](learn-selenium/src/test/java/com/learn/selenium/locateelements/LocateOneElementTest.java) <br/>
 How to find single element from a html page? <br/>
@@ -40,3 +36,7 @@ HTML CSS Selector test, and print row elements <br/>
 [XPath expressions](learn-selenium/src/test/java/com/learn/selenium/locateelements/LocateByXPathTest.java) <br/>
 Find element by xpath expression
 
+## User Interactions
+
+[Button click](learn-selenium/src/test/java/com/learn/selenium/userinteractions/ButtonClickTest.java) <br/>
+Two buttons (increase, decrease) to see if CSS attribute to increase/decrease font size works
