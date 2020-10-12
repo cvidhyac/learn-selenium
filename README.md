@@ -44,3 +44,6 @@ Two buttons (increase, decrease) to see if CSS attribute to increase/decrease fo
 [Search on Google](learn-selenium/src/test/java/com/learn/selenium/userinteractions/GoogleSearchTest.java) <br/>
 Search a term in google search and see if it works
 
+[Understand Dropdowns](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DropdownTest.java)
+Simple example to understand how dropdowns work, and different methods in it
+
