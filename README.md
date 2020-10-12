@@ -44,6 +44,14 @@ Two buttons (increase, decrease) to see if CSS attribute to increase/decrease fo
 [Search on Google](learn-selenium/src/test/java/com/learn/selenium/userinteractions/GoogleSearchTest.java) <br/>
 Search a term in google search and see if it works
 
-[Understand Dropdowns](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DropdownTest.java)
+[Understand Dropdowns](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DropdownTest.java) <br/>
 Simple example to understand how dropdowns work, and different methods in it
 
+[Multiselect Dropdowns](learn-selenium/src/test/java/com/learn/selenium/userinteractions/ListPropertiesTest.java) <br/>
+Verify if dropdown is multiple and validate contents
+
+[Radio Button](learn-selenium/src/test/java/com/learn/selenium/userinteractions/RadioButtonTest.java) <br/>
+Verify if element is selected, if not click and select to toggle the state
+
+[Check Box](learn-selenium/src/test/java/com/learn/selenium/userinteractions/CheckboxTest.java) <br/>
+Verify if check box is selected, if selected unselct it.
