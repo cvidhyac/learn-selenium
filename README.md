@@ -40,3 +40,7 @@ Find element by xpath expression
 
 [Button click](learn-selenium/src/test/java/com/learn/selenium/userinteractions/ButtonClickTest.java) <br/>
 Two buttons (increase, decrease) to see if CSS attribute to increase/decrease font size works
+
+[Search on Google](learn-selenium/src/test/java/com/learn/selenium/userinteractions/GoogleSearchTest.java) <br/>
+Search a term in google search and see if it works
+
