@@ -58,3 +58,10 @@ Verify if check box is selected, if selected unselct it.
 
 [Multi-Select Dropdown](learn-selenium/src/test/java/com/learn/selenium/userinteractions/ControlCommandTest.java) <br/>
 Use Action keyUp and keyDown to select multiple elements from a dropdown where multi-select is allowed.
+
+[Double Click Action](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DoubleClickTest.java) <br/>
+Demonstrate doubleClick in Action builder and see if javascript function returns right value
+
+[Drag and Drop](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DragAndDropTest.java) <br/>
+How to test drag and drop action involving an intermediate javascript function.
+

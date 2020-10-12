@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestSeed {
+class TestSeed {
 
   private static final Logger LOGGER = Logger.getLogger(TestSeed.class.getName());
   private WebDriver webDriver;
