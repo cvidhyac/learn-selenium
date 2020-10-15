@@ -65,3 +65,12 @@ Demonstrate doubleClick in Action builder and see if javascript function returns
 [Drag and Drop](learn-selenium/src/test/java/com/learn/selenium/userinteractions/DragAndDropTest.java) <br/>
 How to test drag and drop action involving an intermediate javascript function.
 
+## Browser Interactions
+
+[Browser Navigation](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/BrowserNavigationTest.java) 
+<br/>
+Demonstrate website navigation using browser back, forward, refresh
+
+[Window Maximize](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/WindowMaximizeTest.java) 
+<br/>
+Window Maximize test
