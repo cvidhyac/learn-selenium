@@ -92,3 +92,11 @@ Switch to child html pages using HTML frames and assert the contents, switch to 
 [IFrame Navigation](learn-selenium/src/test/java/com/learn/selenium/browser/window/IFrameTest.java)
 <br/>
 IFrame switch and asserting website content
+
+[Popup Test](learn-selenium/src/test/java/com/learn/selenium/browser/window/PopupTest.java)
+<br/>
+Flip betwee popups and print titles in each popup
+
+[Alert Test](learn-selenium/src/test/java/com/learn/selenium/browser/window/AlertTest.java)
+<br/>
+How to find Alert box from screen, and close it by automation.
