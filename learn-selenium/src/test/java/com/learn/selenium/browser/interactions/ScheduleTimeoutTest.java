@@ -1,5 +1,7 @@
 package com.learn.selenium.browser.interactions;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -30,13 +32,13 @@ class ScheduleTimeoutTest {
   @Test
   void testPageLoadTimeout() {
     Timeouts timeouts = webDriver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-    Assertions.assertNotNull(timeouts);
+    assertNotNull(timeouts);
   }
 
   @Test
   void testImplicitTimeout() {
     Timeouts timeouts = webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    Assertions.assertNotNull(timeouts);
+    assertNotNull(timeouts);
   }
 
   /**
@@ -54,7 +56,7 @@ class ScheduleTimeoutTest {
     webDriver.navigate().back();
 
     WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
-    Assertions.assertThrows(TimeoutException.class, () ->
+    assertThrows(TimeoutException.class, () ->
         webDriverWait
             .until(ExpectedConditions.elementToBeSelected(webDriver.findElement(By.name("q"))))
     );

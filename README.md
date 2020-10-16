@@ -67,18 +67,23 @@ How to test drag and drop action involving an intermediate javascript function.
 
 ## Browser Interactions
 
-[Browser Navigation](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/BrowserNavigationTest.java) 
+[Browser Navigation](learn-selenium/src/test/java/com/learn/selenium/browser/interactions/BrowserNavigationTest.java) 
 <br/>
 Demonstrate website navigation using browser back, forward, refresh
 
-[Window Maximize](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/WindowMaximizeTest.java) 
+[Window Maximize](learn-selenium/src/test/java/com/learn/selenium/browser/interactions/WindowMaximizeTest.java) 
 <br/>
 Window Maximize test
 
-[Session Cookies](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/SessionCookieTest.java)
+[Session Cookies](learn-selenium/src/test/java/com/learn/selenium/browser/interactions/SessionCookieTest.java)
 <br/>
 Session cookies - get cookie from website
 
-[Timeouts](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/ScheduleTimeoutTest.java)
+[Timeouts](learn-selenium/src/test/java/com/learn/selenium/browser/interactions/ScheduleTimeoutTest.java)
 <br/>
 Adding wait times, implict timeout and explicit timeout condition
+
+## Browser Window Validation
+
+[IFrame Navigation](learn-selenium/src/test/java/com/learn/selenium/browser/window/IFrameTest.java)
+Switch to child html pages (iframes) and assert the contents, switch to main window
