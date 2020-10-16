@@ -85,5 +85,10 @@ Adding wait times, implict timeout and explicit timeout condition
 
 ## Browser Window Validation
 
+[Html Frame Navigation](learn-selenium/src/test/java/com/learn/selenium/browser/window/HtmlFrameTest.java)
+<br/>
+Switch to child html pages using HTML frames and assert the contents, switch to main window
+
 [IFrame Navigation](learn-selenium/src/test/java/com/learn/selenium/browser/window/IFrameTest.java)
-Switch to child html pages (iframes) and assert the contents, switch to main window
+<br/>
+IFrame switch and asserting website content
