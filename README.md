@@ -108,3 +108,8 @@ How to find Alert box from screen, and close it by automation.
 [Standalone Set up](learn-selenium/src/test/java/com/learn/selenium/drivers/DriverNotes.md)
 <br/>
 Start selenium server locally with cli options
+
+[Screenshot](learn-selenium/src/test/java/com/learn/selenium/drivers/ScreenshotTest.java)
+<br/>
+- How to capture a screenshot and access the screenshot file
+- How to capture screenshot of a specific section of the page
