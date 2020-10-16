@@ -78,3 +78,7 @@ Window Maximize test
 [Session Cookies](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/SessionCookieTest.java)
 <br/>
 Session cookies - get cookie from website
+
+[Timeouts](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/ScheduleTimeoutTest.java)
+<br/>
+Adding wait times, implict timeout and explicit timeout condition
