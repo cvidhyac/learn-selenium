@@ -74,3 +74,7 @@ Demonstrate website navigation using browser back, forward, refresh
 [Window Maximize](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/WindowMaximizeTest.java) 
 <br/>
 Window Maximize test
+
+[Session Cookies](learn-selenium/src/main/java/com/learn/selenium/browser/interactions/SessionCookieTest.java)
+<br/>
+Session cookies - get cookie from website
