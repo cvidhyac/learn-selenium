@@ -100,3 +100,11 @@ Flip betwee popups and print titles in each popup
 [Alert Test](learn-selenium/src/test/java/com/learn/selenium/browser/window/AlertTest.java)
 <br/>
 How to find Alert box from screen, and close it by automation.
+
+## Drivers
+
+[Drivers] 
+
+[Standalone Set up](learn-selenium/src/test/java/com/learn/selenium/drivers/DriverNotes.md)
+<br/>
+Start selenium server locally with cli options
