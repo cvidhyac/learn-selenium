@@ -137,4 +137,9 @@ How to execute javascript from selenium tests.
 <br/>
 Example to demonstrate knowledge of page factory model
 
+[Reusable functions](learn-selenium/src/test/java/com/learn/selenium/factory/WebTableTest.java)
+<br/>
+How to create an abstraction, and use in a test for clean code
+
+
 
