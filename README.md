@@ -119,6 +119,10 @@ Start selenium server locally with cli options
 - How to capture a screenshot and access the screenshot file
 - How to capture screenshot of a specific section of the page
 
+[Run tests with Selenium Grid](learn-selenium/src/test/java/com/learn/selenium/drivers/SeleniumGridTest.java)
+- Pre-requisite : Start grid (hub and chrome node) following DriverNotes.md
+- Firefox Node does not work, but concept is quite similar
+
 ## Events
 
 [Understand Selenium Events](learn-selenium/src/test/java/com/learn/selenium/browser/events/SeleniumEvents.md)

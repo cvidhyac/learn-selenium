@@ -14,7 +14,6 @@ class DriverTest {
   private static final Logger LOGGER = Logger.getLogger(DriverTest.class.getName());
   private WebDriver chromeWebDriver;
   private WebDriver firefoxWebDriver;
-  private WebDriver ieWebDriver;
 
 
   @Test
