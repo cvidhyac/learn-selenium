@@ -131,4 +131,10 @@ Simple notes taken to understand the concept
 [Executing JavaScript](learn-selenium/src/test/java/com/learn/selenium/browser/events/JavaScriptExecuteTest.java)
 How to execute javascript from selenium tests.
 
+## Page Factory Model
+
+[Understand Page Factory](learn-selenium/src/test/java/com/learn/selenium/factory/ProductPageTest.java)
+<br/>
+Example to demonstrate knowledge of page factory model
+
 
