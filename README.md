@@ -103,7 +103,12 @@ How to find Alert box from screen, and close it by automation.
 
 ## Drivers
 
-[Drivers] 
+[Drivers](learn-selenium/src/test/java/com/learn/selenium/drivers/DriverTest.java)
+<br/>
+Compare Chrome vs Firefox driver, basics
+
+[Remote WebDriver](learn-selenium/src/test/java/com/learn/selenium/drivers/RemoteWebDriverTest.java)
+Example to see how to access the local selenium server, and run a test
 
 [Standalone Set up](learn-selenium/src/test/java/com/learn/selenium/drivers/DriverNotes.md)
 <br/>
@@ -113,3 +118,17 @@ Start selenium server locally with cli options
 <br/>
 - How to capture a screenshot and access the screenshot file
 - How to capture screenshot of a specific section of the page
+
+## Events
+
+[Understand Selenium Events](learn-selenium/src/test/java/com/learn/selenium/browser/events/SeleniumEvents.md)
+Simple notes taken to understand the concept
+
+[Event Listener Example](learn-selenium/src/test/java/com/learn/selenium/browser/events/EventListenerTest.java)
+- A simple example to invoke webdriver listener implementation for before and after click
+- Custom Click event listener invoked to demo concept understanding.
+
+[Executing JavaScript](learn-selenium/src/test/java/com/learn/selenium/browser/events/JavaScriptExecuteTest.java)
+How to execute javascript from selenium tests.
+
+

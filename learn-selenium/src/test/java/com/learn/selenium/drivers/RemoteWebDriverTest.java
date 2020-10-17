@@ -14,6 +14,10 @@ class RemoteWebDriverTest {
 
   private WebDriver webDriver;
 
+  /**
+   * Refer: {@see DriverNotes.md} on how to start local selenium server using chrome driver
+   * @throws MalformedURLException when url is incorrect
+   */
   @BeforeEach
   void setUp() throws MalformedURLException {
     webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), new ChromeOptions());
